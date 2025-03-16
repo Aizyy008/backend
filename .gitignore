@@ -1,0 +1,46 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+*.db
+*.tar
+*.bak
+*.swp
+*.swo
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Node.js dependencies
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# Database files
+db.sqlite3
+
+# Media files
+media/
+
+# Static files (if you are collecting them separately)
+static/
+
+# .env or other sensitive environment configuration files
+.env
+
+# Django Secret Key (if you don't want it exposed in version control)
+secret_key.txt
+
+# If you are using docker, add the following
+.docker/
